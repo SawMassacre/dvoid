@@ -1,1 +1,1 @@
-<template>Привет это начало!</template>
+<template>Hi!</template>
