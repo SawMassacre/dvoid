@@ -51,4 +51,31 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+body {
+    /* Make the body a flex container */
+    display: flex;
+    /* Center items along the horizontal axis */
+    justify-content: center;
+    /* Center items along the vertical axis */
+    align-items: center;
+    /* Take up the full viewport height */
+    height: 100vh;
+    /* Remove default margin */
+    margin: 0;
+}
+
+/* CSS for mobile devices */
+@media only screen and (max-width: 600px) {
+    /* Add your mobile-specific styles here */
+    body {
+        /* Example: Adjust the line-height for mobile */
+        line-height: 1.2;
+    }
+
+    video {
+        /* Example: Adjust the video width for mobile */
+        width: 100%;
+    }
+}
 </style>
